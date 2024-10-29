@@ -6,4 +6,4 @@ The questions were gathered from different sources: MIU official website and Git
 
 The primary programming language used for solving these questions is Java.
 
-#HappyCoding
+#HappyCoding :)

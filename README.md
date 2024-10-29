@@ -4,4 +4,6 @@ This repository includes solutions for all the elementary programming questions 
 
 The questions were gathered from different sources: MIU official website and GitHub.
 
-The primary programming language I used for solving these questions is Java.
+The primary programming language used for solving these questions is Java.
+
+#HappyCoding

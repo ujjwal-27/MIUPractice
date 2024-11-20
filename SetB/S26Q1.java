@@ -1,6 +1,6 @@
 public class S26Q1 {
     public static void main(String[] args) {
-        int[] a = {};
+        int[] a = {3, 0, 2, -5, 0};
         int result = sumFactor(a);
         System.out.println(result);
     }

@@ -10,19 +10,23 @@ public class S34Q2 {
 
     public int matches(int[] a, int[] p) {
         int start = 0;
-        int sum = 0;
 
         for (int i = 0; i < p.length; i++) {
-            int abs = (p[i] < 0) ? p[i] * -1 : p[i];
-            sum += abs;
+            int current = p[i];
 
-            if (sum > a.length) return 0;
-
-            for (int j = start; j < sum; j++) {
-                if (p[i] < 0 && a[j] > 0 || p[i] > 0 && a[j] < 0) return 0;
+            if (current < 0) {
+                current *= -1;
             }
 
-            start = sum;
+            int end = start + current;
+
+            for (int j = start; j < end; j++) {
+                if ((p[i] < 0 && a[j] > 0) || (p[i] > 0 && a[j] < 0)) {
+                    return 0;
+                }
+            }
+
+            start = end;
         }
 
         return 1;

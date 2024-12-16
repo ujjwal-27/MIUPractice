@@ -6,4 +6,6 @@ The questions were gathered from different sources: MIU official website and Git
 
 The primary programming language used for solving these questions is Java.
 
+Everyday I practise these questions for half an hour, and try to solve as many questions as I can within the given time period.
+
 #HappyCoding :)
